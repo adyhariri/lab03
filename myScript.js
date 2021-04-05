@@ -29,3 +29,15 @@ else{
 }
 
 alert ('thank you for visiting my page i know now some informations about you like , your name is ' + fName + ',your major is ' + major + ', if you still student is ' + state + ' and if you rigester with scholarship is ' + ltuc);
+function greeting(){
+    
+    var day = new Date();
+    var hournow = prompt ('please write the date today')
+    if (hournow< 12) {
+        greeting= 'good morning';
+    } else {
+        greeting= 'good after noon';
+    }
+     document.write(greeting);
+}
+greeting();
